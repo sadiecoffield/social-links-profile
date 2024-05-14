@@ -81,8 +81,17 @@ body {
         padding-bottom: 20px;
     }
 
-
     #profile-img {
         margin: 40px 0px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .main-content {
+        width: 400px;
+    }
+
+    .profile-links {
+        width: 320px;
     }
 }
